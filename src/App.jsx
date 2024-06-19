@@ -66,7 +66,7 @@ function App() {
           ])}
         >
           you have <span>{incompleteLists.length}</span>{' '}
-          {todoList.length === 1 ? 'task' : 'tasks'} to complete
+          {incompleteLists.length === 1 ? 'task' : 'tasks'} to complete
         </div>
         <PageTitle>{`what are you going to achieve today?`} 🤔</PageTitle>
         <div className={styles.app__wrapper}>
